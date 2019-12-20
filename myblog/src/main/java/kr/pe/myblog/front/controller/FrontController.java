@@ -25,12 +25,13 @@ import kr.pe.myblog.team.service.TeaminfoService;
 // Controller 추가 : Controller 클래스 생성 후 servlet-context.xml의
 // <context:component-scan base-package="kr.pe.myblog.front.controller" /> 추가 필요
 // @Controller 어노테이션 추가 필요
-
+// git 확인용 수정
+	
 @Controller
 public class FrontController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(FrontController.class);
-	
+	String temp = "";
 	// Service 추가
 	@Inject
 	private MemberService service;
